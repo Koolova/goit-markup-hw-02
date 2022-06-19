@@ -1,4 +1,160 @@
+: root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--acsent-color: #2196f3;
+--white-color: #FFFFFF;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
+}
+     .page {
+     background-color: #f5f4fA;
+     color: #757575;
+    }
+ul {
+    list-style: none;}
+    .logo-acsent { color: #2196f3;
+     }
+     .logo { color: #212121; 
+    }
+
+
+/* main color of the text #212121 */
+/* color of p element #757575 */ 
+/* hero title color #FFFFFF*/
+/* hero title background: #2F303A */
+/* blue words #2196F3 */
+/* Заказать услугу */
+/* цвет секции серая #F5F4FA */
+
+
+/* Site nav */
+.site-nav a :focus { color: #212121;
+}
+
+.link { color: #212121;
+}
+.adress-info a { 
+    color: #2196f3;   
+}
+.adress-info:hover {
+    color: #2196f3;   
+}
+
+.phone-info a { 
+    color: #212121;}
+    /* section 1 title */
+
+   .first-section {
+    background-color: #2f303a;
+   }
+   .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #e5e5e5;}
+   .hero-page-button {color: #FFFFFF;}
+
+   /* section 2 */
+   .title-about {visually-hidden}
+   .second-section-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #212121;
+   }
+   .text-second-section {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+  }
+  /* third section */
+  
+
+.third-section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+  }
+
+  /* fourth section */
+.section-background-color {
+    background-color: #e5e5e5;
+}
+.fourth-section-title { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+.our-team-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.profession-title~p
+{  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+/* button */
+.button{
+    color: #FFFFFF; var(--white-color)
+    background-color:#2196f3; var(--acsent-color)
+}
+.button.primary:hover,
+.button.primary:focus {
+    background-color: #2196f3;
+    color: #FFFFF;
+}
+/* Footer */
+.footer-menu {
+    background-color: #2f303a;
+}
+.footer-adress { 
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.footer-adress-contact {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-size: 14px;
+line-height: 24px;
+}
+/* Second page */
+.button:hover.button.primary { 
+        background-color: #2196f3;
+        color: #FFFFF;
+    }
+.title-second-page {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.second-menu~p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
