@@ -1,4 +1,4 @@
-: root {
+:root {
 --primary-text-color: #757575;
 --title-text-color: #212121;
 --acsent-color: #2196f3;
@@ -13,12 +13,12 @@ body {
      .page {
      background-color: #f5f4fA;
      color: #757575;
-    }
+     }
     ul { list-style: none;
     }
-    .logo-acsent { color: #2196f3;
+    .logo-acsent {color: #2196f3;
      }
-     .logo { color: #212121; 
+     .logo {color: #212121; 
     }
 
 
@@ -30,9 +30,11 @@ body {
 /* Заказать услугу */
 /* цвет секции серая #F5F4FA */
 
-
+/* Header */
 /* Site nav */
 .site-nav a :focus { color: #212121;
+    cursor: pointer; 
+    text-decoration: none;
 }
 
 .link { color: #212121;
@@ -46,6 +48,7 @@ body {
 
 .phone-info a { 
     color: #212121;}
+
     /* section 1 title */
 
    .first-section {
@@ -61,13 +64,13 @@ body {
     font-size: 44px;
     line-height: 60px;
     color: #e5e5e5;}
-   .hero-page-button {color: #FFFFFF;}
+   
 
    /* section 2 */
 .title-about { 
     visually-hidden
 }
-   .second-section-title {
+.second-section-title {
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -121,18 +124,17 @@ color: #212121;
 
 
 /* button */
-.button{
-    color: #FFFFFF; var (--white-color)
-    background-color:#2196f3; var(--acsent-color)
-}
 
-.button.primary {
-    width: 136px; height: 30px;
+.button {
+    width: 200px; height: 50px;
     text-transform: uppercase;
     font-weight: 700;
-    border: 4px solid;
+    border: 1px;
     background-color: #2196f3;
     color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 30px
 }
 /* Footer */
 .footer-menu {
