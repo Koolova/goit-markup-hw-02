@@ -7,13 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
 }
      .page {
      background-color: #f5f4fA;
      color: #757575;
     }
-ul {
-    list-style: none;}
+    ul { list-style: none;
+    }
     .logo-acsent { color: #2196f3;
      }
      .logo { color: #212121; 
@@ -48,7 +50,12 @@ ul {
 
    .first-section {
     background-color: #2f303a;
-   }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1600px; height: 600px;
+    }
+
    .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -57,7 +64,9 @@ ul {
    .hero-page-button {color: #FFFFFF;}
 
    /* section 2 */
-   .title-about {visually-hidden}
+.title-about { 
+    visually-hidden
+}
    .second-section-title {
 font-weight: 700;
 font-size: 14px;
@@ -113,11 +122,15 @@ color: #212121;
 
 /* button */
 .button{
-    color: #FFFFFF; var(--white-color)
+    color: #FFFFFF; var (--white-color)
     background-color:#2196f3; var(--acsent-color)
 }
-.button.primary:hover,
-.button.primary:focus {
+
+.button.primary {
+    width: 136px; height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid;
     background-color: #2196f3;
     color: #FFFFFF;
 }
