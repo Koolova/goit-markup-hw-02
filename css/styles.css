@@ -50,7 +50,7 @@ body {
 /* Header */
 /* Site nav */
 
-.site-nav :focus { #
+.site-nav:focus {
     color: var(--title-text-color);
     cursor: pointer; 
     text-decoration: none;
